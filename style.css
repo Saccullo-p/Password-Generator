@@ -1,0 +1,44 @@
+/* style.css */
+
+/* Aggiungi uno sfondo o colori di sfondo personalizzati */
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* Stili per l'intestazione */
+h1 {
+    color: #333;
+    padding: 20px 0;
+}
+
+/* Stili per il campo di input */
+input {
+    padding: 10px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/* Stili per il pulsante */
+button {
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Stili per il paragrafo in cui viene visualizzata la password generata */
+#generatedPassword {
+    font-size: 25px;
+    font-weight: bold;
+    padding: 20px;
+    background-color: #fff;
+    color: #333;
+}
